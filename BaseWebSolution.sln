@@ -13,6 +13,7 @@ Global
 		{49DBF92C-DD18-4CFE-8C86-13568F5F047B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49DBF92C-DD18-4CFE-8C86-13568F5F047B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49DBF92C-DD18-4CFE-8C86-13568F5F047B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49DBF92C-DD18-4CFE-8C86-13568F5F047B}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
