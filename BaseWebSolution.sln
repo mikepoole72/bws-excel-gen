@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseWebSolution", "BaseWebSolution\BaseWebSolution.csproj", "{49DBF92C-DD18-4CFE-8C86-13568F5F047B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelGen", "ExcelGen\ExcelGen.csproj", "{D5A21B94-FA5B-48FD-A0FF-E4E8F2A38B96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelConfig", "ExcelConfig\ExcelConfig.csproj", "{86B561DE-1EC2-402F-8727-D354A0CDF604}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,6 +18,14 @@ Global
 		{49DBF92C-DD18-4CFE-8C86-13568F5F047B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49DBF92C-DD18-4CFE-8C86-13568F5F047B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{49DBF92C-DD18-4CFE-8C86-13568F5F047B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D5A21B94-FA5B-48FD-A0FF-E4E8F2A38B96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5A21B94-FA5B-48FD-A0FF-E4E8F2A38B96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5A21B94-FA5B-48FD-A0FF-E4E8F2A38B96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5A21B94-FA5B-48FD-A0FF-E4E8F2A38B96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86B561DE-1EC2-402F-8727-D354A0CDF604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86B561DE-1EC2-402F-8727-D354A0CDF604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86B561DE-1EC2-402F-8727-D354A0CDF604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86B561DE-1EC2-402F-8727-D354A0CDF604}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

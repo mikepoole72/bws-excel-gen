@@ -182,6 +182,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\ExcelController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -329,6 +330,7 @@
     <Content Include="Content\bootstrap\alerts.less" />
     <Content Include="Content\less\bootstrap-datetimepicker-build.less" />
     <Content Include="Content\less\_bootstrap-datetimepicker.less" />
+    <Content Include="App_Data\Templates\ExcelTemplates\ExampleTemplate.xlsx" />
     <None Include="Properties\PublishProfiles\Local Deploy.pubxml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Icon.png" />
@@ -384,13 +386,25 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Shared\_BootstrapLayout.cshtml" />
+    <Content Include="Views\Excel\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
+    <Folder Include="App_Data\Documents\ExcelDocuments\" />
+    <Folder Include="App_Data\Documents\Temp\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ExcelConfig\ExcelConfig.csproj">
+      <Project>{86b561de-1ec2-402f-8727-d354a0cdf604}</Project>
+      <Name>ExcelConfig</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExcelGen\ExcelGen.csproj">
+      <Project>{d5a21b94-fa5b-48fd-a0ff-e4e8f2a38b96}</Project>
+      <Name>ExcelGen</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
